@@ -1,0 +1,7 @@
+packages:
+  .
+  cairo-core
+  cairo-opts
+  Gdk
+  gi-cairo
+  Gtk
