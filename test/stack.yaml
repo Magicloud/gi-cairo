@@ -18,7 +18,7 @@
 #
 # resolver: ./custom-snapshot.yaml
 # resolver: https://example.com/snapshots/2018-01-01.yaml
-resolver: lts-13.2
+resolver: lts-13.4
 
 # User packages to be built.
 # Various formats can be used as shown in the example below.
@@ -41,6 +41,7 @@ packages:
 extra-deps:
     - /home/shida/src/Personal/gi-cairo
     - /home/shida/src/Personal/cairo-core
+    - /home/shida/src/Personal/cairo-opts
     - /home/shida/src/Git/haskell-gi/bindings/Gdk
     - /home/shida/src/Git/haskell-gi/bindings/Gtk
 

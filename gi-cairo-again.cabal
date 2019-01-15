@@ -1,7 +1,7 @@
-name:                gi-cairo
-version:             0.1.0.0
--- synopsis:
--- description:
+name:                gi-cairo-again
+version:             1.16.0
+synopsis:            Bridge between packages gi-* and cairo-core.
+description:         Bridge between packages gi-* and cairo-core. Just `fromGI` and `toGI`.
 homepage:            https://github.com/magicloud/gi-cairo#readme
 license:             BSD3
 license-file:        LICENSE
@@ -10,8 +10,8 @@ maintainer:          magiclouds@gmail.com
 copyright:           None
 category:            Graphics
 build-type:          Simple
-extra-source-files:  README.md
-cabal-version:       >=1.10
+extra-source-files:  README.md, Changelog
+cabal-version:       2.0
 
 library
   hs-source-dirs:      src
